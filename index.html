@@ -9,9 +9,65 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-offset-1 col-md-9">
+
+			<div id="header">
+			<i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-offset-1 col-md-9">
+
+			<div class="search">
+				<div id="searchHeader">Search Parameters</div>
+			
+
+			<div class="form">
+
+				<p>Search Term:</p>
+				<div id="term"><p><input type="text" name="search" placeholder="Roosevelt"></p></div>
+
+				<p>Number of Records to Recieve:</p>
+				<div id="records"><p><input type="text" name="search" placeholder="10"></p>
+				</div>
+
+				<p>Start Year (optional):</p>
+				<div id="year1"><p><input type="text" name="search" placeholder="1923"></p></div>
+
+				<p>End Year (optional):</p>
+				<div id="year2"><p><input type="text" name="search" placeholder="1929"></p></div>
+
+				<button type="button" class="btn btn-default">
+         		<span class="glyphicon glyphicon-search"></span> Search
+        		</button>
+
+				<button type="button" class="btn btn-default">
+          		<span class="glyphicon glyphicon-trash"></span> Clear Results
+        		</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-offset-1 col-md-9">
+
+			<div class="results">
+				<div id="resultsHeader">Top Article</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
